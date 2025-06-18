@@ -8,9 +8,19 @@ category: work
 related_publications: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+As a side-project during the summer, I decided to try recreating the Nintendo Entertainment System on FPGA hardware!
+This is mainly inspired by Analogue's own escapades (Gameboy, SNES, Sega Genesis, etc.), wherein their replicas
+have been able to have crazy good performance (coupled with other pretty neat features)! 
+
+Dividing the project into two portions seemed the most fit, with the first part involving software emulation and
+the second having to do with hardware. Why did I do this? Well, developing the hardware implementation will certainly require an in-depth understanding of the system's architecture, particularities, and compatibility with external devices. To put it plainly, I knew nothing of this, and creating an emulator (using Rust in this case!) seemed like a great way to become much more familiar with everything. Plus, debugging in software always ends up being less painful than with hardware.
+
+Software Emulation:
+
+The first step before beginning any sort of software project is to pick what tools will be used! In this case, I really just had to choose which language I wanted to use. I ended up going with Rust because of its speed, large amount of libraries, and just general familiarity. Moreover, after utilizing it to build a compiler this past semester, I wanted to do more cool stuff with the language.
+
+So, with the language in mind, I started looking at the actual NES hardware spec. 
+
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
