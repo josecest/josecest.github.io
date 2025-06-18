@@ -5,7 +5,7 @@ description: with background image
 img: assets/img/12.jpg
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 As a side-project during the summer, I decided to try recreating the Nintendo Entertainment System on FPGA hardware!
