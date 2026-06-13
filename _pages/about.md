@@ -22,6 +22,8 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hi! I'm José, a student at Carnegie Mellon University studying Electrical and Computer Engineering. My academic interests mainly lie in the fields of Compilers, Computer Architecture, and Embedded Systems! Previously, I've worked at Evertec for two summers as a Software Engineering intern, developing security-critical financial tech services. 
+I'm José, an ECE student at Carnegie Mellon University. I recently completed my B.S. in Electrical and Computer Engineering and am in the process of pursuing my M.S. in the same department. My main academic interests lie in digital design, embedded systems, and FPGA hardware acceleration.
 
-Currently, I'm working on reverse-engineering the [Nintendo Entertainment System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System) to be able to run on an FPGA. The project is divided into two parts, a Rust reference emulator, and the actual hardware implementation in SystemVerilog. You can check out updates on both parts here!
+I'm currently working at Carnegie Mellon's [SPIRAL lab](http://www.spiral.net) under [Franz Franchetti](https://www.ece.cmu.edu/directory/bios/franchetti-franz.html) on the development of a high assurance verification system for Siemens Programmable Logic Controllers (PLCs), leveraging the system's [Realtime Information Backbone](https://support.industry.siemens.com/cs/document/109810853/realtime-information-backbone-(rib)?dti=0&lc=en-US) to process data and run safety checks with embedded C++ on a Linux core.
+
+Aside from that, I've been working on replicating the [Nintendo Entertainment System](https://en.wikipedia.org/wiki/Nintendo_Entertainment_System) to be able to run on an FPGA. By taking advantage of specialized blocks like DSPs and BRAM, I'm building a cycle-accurate hardware implementation in SystemVerilog.
